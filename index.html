@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock by Jainam Bheda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="time">
+        <div class="circle" style="--clr:#fffdfd;">
+            <div class="dots hourdots"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="hou"></circle>
+            </svg>
+            <div id="hours">00</div>
+        </div>
+        <div class="circle" style="--clr:#f1f1f0;">
+            <div class="dots mindots"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="min"></circle>
+            </svg>
+            <div id="minutes">00</div>
+        </div>
+        <div class="circle" style="--clr:#f31010;">
+            <div class="dots secdots"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="sec"></circle>
+            </svg>
+            <div id="seconds">00</div>
+        </div>
+        <div class="ap">
+            <div id="ampm">AM</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
